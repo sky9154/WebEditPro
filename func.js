@@ -1,6 +1,8 @@
 function set(){
     document.getElementById("tab1").style.backgroundColor="rgb(99, 115, 131)";
     document.getElementById("tab2").style.backgroundColor="lightslategrey";
+    document.getElementById("reset").style.backgroundColor="lightslategrey";
+    document.getElementById("output").style.backgroundColor="lightslategrey";
     document.getElementById("css").style.display="none"
 }
 function openPage(pageName) {
