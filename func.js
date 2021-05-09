@@ -19,3 +19,8 @@ function openPage(pageName) {
       document.getElementById("tab2").style.backgroundColor="rgb(99, 115, 131)";
     }
 }
+function output(){
+    var html = document.getElementById("html").value;
+    var css = document.getElementById("css").value;
+    alert("html:"+html+"\ncss:"+css);
+}

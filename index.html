@@ -13,13 +13,13 @@
 
 <body onload="reset(),set();">
     <div class="left">
-    <button class="tab" onclick="openPage('html')" id="tab1"><h3>html</h3></button>
-    <button class="tab" onclick="openPage('css')" id="tab2"><h3>CSS</h3></button>
-    <button class="tab" onclick="openPage('reset')" id="reset"><h3>重置</h3></button>
-    <button class="tab" onclick="openPage('output')" id="output"><h3>輸出</h3></button>
-    <form action="./kirito.php" method="post" class="input">
+    <button class="tab" onclick="openPage('html');" id="tab1"><h3>html</h3></button>
+    <button class="tab" onclick="openPage('css');" id="tab2"><h3>CSS</h3></button>
+    <button class="tab" onclick="reset();" id="reset"><h3>重置</h3></button>
+    <button class="tab" onclick="output();" id="output"><h3>輸出</h3></button>
+    <form action="./kirito.html" method="post" class="input">
     <textarea id="html"></textarea>
-    <textarea id="css">123</textarea>
+    <textarea id="css"></textarea>
     </div>
     </form>
 </body>
